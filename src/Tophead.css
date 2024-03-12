@@ -1,0 +1,83 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+    background-color: black;
+    height: 25px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.headerleft{
+    display: flex;
+    flex: 0.28;
+    align-items:center;
+    color: whitesmoke;
+    justify-content: space-evenly;
+    justify-self: start;
+    cursor: pointer;
+    
+}
+.LHL{
+    
+    display: inline-block;
+    justify-content: flex-start;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.LHR{
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.title {
+   color: whitesmoke;
+   margin: 4px 4px 4px 4px;
+   font-size: 14px;
+  }
+.headerleft > svg {
+    margin-top: 100px !important;
+    object-fit:scale-down;
+}
+
+.centerheader{
+    display: flex;
+    flex: 0.4;
+    align-items: center;
+}
+.centerheader > .MuiSvgIcon-root{
+    color: whitesmoke;
+    margin: 5px;
+}
+
+.centerheader  > input{
+    width: 100%;
+    height: 100%;
+    outline-width: 10px;
+    color: whitesmoke;
+    font-size: small;
+    background-color: #000000;
+    border-radius: 45px;
+    outline: rgb(0, 227, 253);
+}
+
+.centerheader  > input::placeholder{
+    text-align: center;
+ }
+.rightheader{
+    display: flex;
+    flex: 0.15;
+    align-items:center;
+    justify-content: space-evenly;
+    
+}
+.rightheader> .MuiSvgIcon-root{
+    color: whitesmoke;
+    cursor: pointer;
+}

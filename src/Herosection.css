@@ -1,0 +1,107 @@
+.Herosection{
+    display: block;
+    flex: 1;
+    color: white;
+    background-color: black;
+    border-top: 1px solid aqua; 
+
+}
+.HSF{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.HSFRR{
+    display: flex;
+    padding-top:3px;
+    border-left: 1px solid aqua;  ;
+}
+.HSFL{
+    display: flex;
+    height: 30px;
+}
+.HSFA{
+    display: flex;
+    align-items: center;
+    color: rgb(28, 144, 63);
+    padding: 5px;
+    border-right: 1px solid aqua;
+}
+.HSFA>h5{
+    padding: 5px;
+}
+.horizontal-line {
+    width: 100%;
+    height: 1px; 
+    background-color: aqua;
+  }
+
+.HSS{
+    margin-left: 10px;
+    padding: 2px;
+    display: flex;
+    color: rgb(177, 171, 171);
+}
+
+.HST{
+    height: 60vh;
+    overflow:scroll;
+}
+
+.HST::-webkit-scrollbar {
+    display: none;
+}
+
+.HSBOTTOM{
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.HSBOTTOMLEFT{
+    display: flex;
+}
+.HSBOTTOM1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.HSBOTTOMRIGHT1{
+    display: flex;
+}
+.HSBOTTOM2{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#para1{
+    margin-left: 30px;
+    font-size: 14px;
+}
+.Contect{
+    padding-top: 12px;
+    display: flex;
+    margin-left: 50px;
+    font-size: 14px;
+}
+.ContectL{
+    padding-right: 20px;
+}
+#para2{
+   
+    margin-left: 30px;
+    font-size: 14px;
+    padding-top: 12px;
+    
+}
+#para3{
+   
+    margin-left: 30px;
+    font-size: 14px;
+    padding-top: 6px;
+    
+}
+#bluehai{
+    color: aquamarine;
+}
+#greenhai{
+    color: rgb(3, 229, 3);
+}

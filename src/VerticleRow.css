@@ -1,0 +1,30 @@
+.VR{
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+    border-right: 1px solid aqua;
+    border-top: 1px solid aqua;
+    border-bottom: 1px solid aqua;
+}
+.VRB{
+    margin-top: 60vh;
+}
+
+.VRT > .MuiSvgIcon-root{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: whitesmoke
+    
+}
+
+.VRB > .MuiSvgIcon-root{
+    display: block;
+    color: whitesmoke;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}

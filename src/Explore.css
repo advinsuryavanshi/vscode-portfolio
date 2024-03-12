@@ -1,0 +1,82 @@
+.EXP{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-right: 1px solid aqua;
+    border-top: 1px solid aqua;
+    cursor: pointer;
+}
+.UP{
+    justify-items:flex-start;
+}
+.Explore{
+    padding-top: 3px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.Explore > h6{
+    margin-left: 10px;
+    margin-right:45px;
+}
+
+.jaja{
+    margin-left: 6px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.jaja >h5{
+    margin-left: 6px;
+    color: rgb(28, 144, 63);
+    
+}
+.ADDY{
+    padding: 3px;
+    display: flex;
+    justify-content: space-between !important;
+}
+.ADDYL{
+    
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.ADDYL > h5{
+    color: rgb(193, 125, 0);
+}
+.ADDYR{
+
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.down{
+    
+    padding-top: 68 vh;       
+}
+.FEA{
+   
+    padding: 3px;
+    padding-right: 64px;
+    padding-right: 32px;
+    border-top: 1px solid aqua;
+    display: flex;
+
+}  
+.FEB{
+   
+    padding: 3px;
+    padding-right: 64px;
+    border-bottom: 1px solid aqua;
+    border-top: 1px solid aqua;
+    display: flex;
+    align-items: center;
+}

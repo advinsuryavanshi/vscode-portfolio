@@ -1,0 +1,40 @@
+.Aboutme{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+
+}
+.AboutmeL{
+    flex: 0.65;
+}
+.AboutmeLR{
+    flex: 0.35;
+    height: 400px !important;
+    width: 400px !important;
+}
+
+.gr{
+    color: gray;
+}
+
+.R{
+    color: rgb(197, 55, 7);
+}
+
+.gree{
+    color: rgb(4, 182, 4);
+}
+.ye{
+    color: rgb(155, 18, 228);
+}
+
+#sasa{
+    color:yellowgreen;
+    margin-left: 75px;
+}
+
+a{
+    text-decoration:none;
+    color: whitesmoke;
+}
