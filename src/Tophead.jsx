@@ -1,4 +1,4 @@
-import React from "react";
+import React,  {useContext} from "react";
 import "./Tophead.css";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
@@ -10,12 +10,14 @@ import HorizontalRuleIcon from "@mui/icons-material/HorizontalRule";
 import CropSquareIcon from "@mui/icons-material/CropSquare";
 import CloseIcon from "@mui/icons-material/Close";
 import GridViewIcon from "@mui/icons-material/GridView";
+import counterContext from './counterContext';
 
 const Tophead = () => {
+  const {handle0} = useContext(counterContext)
   return (
     <div className="header">
       <div className="headerleft">
-        <div className="LHL">
+        <div className="LHL" onClick={handle0}>
           <svg
             height="25"
             viewBox="-11.9 -2 1003.9 995.6"

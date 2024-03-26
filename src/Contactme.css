@@ -1,9 +1,9 @@
 .formmain{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(0, 137, 137);
+    /* background-color: rgb(0, 137, 137); */
     height: 100%;
-    
+   
 }
 .formLeft{
     
@@ -40,7 +40,7 @@
     height: 100%;
     row-gap: 20px;
     justify-content: center;
-    background-color: rgb(0, 137, 137);
+    
 }
 
 .form-container > form {
@@ -81,6 +81,7 @@
 }
 .form-container > form > h2{
     color: burlywood;
+    
 }
 
 /* .formLeft>img{
@@ -95,4 +96,5 @@
     padding-top: 80px;
     text-align: center;
     margin-left: 100px;
+    /* background-color: rgb(0, 137, 137); */
 }

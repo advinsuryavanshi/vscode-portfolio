@@ -4,8 +4,11 @@
     color: white;
     background-color: black;
     border-top: 1px solid aqua; 
+   overflow: hidden;
 
 }
+
+
 .HSF{
     display: flex;
     justify-content: space-between;

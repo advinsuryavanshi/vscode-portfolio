@@ -165,7 +165,7 @@ const Herosection = () => {
       <div className="HSS">
         <h5>Advin's Portfolio</h5>
         <ArrowForwardIosIcon fontSize="smaller" />
-        <h5>Welconw To My World</h5>
+        <h5>Welcome To My World</h5>
       </div>
       <div className="horizontal-line"></div>
       <div className="HST">

@@ -76,17 +76,17 @@ const ContactMe = () => {
       </div>
 
       <div className="cmid">
-        <h3><i>" it's always good <br />
-        to connect with a <br />
-        unknown friend "</i></h3>
-        <br />
+        <h3><i>" it's  <br />always <br />good <br />
+        to <br />connect<br /> with a <br />
+        unknown <br />friend "</i></h3>
+        {/* <br />
         <br />
         <br />
         <br />
         <br /><br />
         <h3><i>" Every known friend <br />
         was once a <br />
-        Stranger "</i></h3>
+        Stranger "</i></h3> */}
       </div>
       <div className="form-container">
         <form onSubmit={onSubmit}>

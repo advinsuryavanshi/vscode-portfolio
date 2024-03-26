@@ -9,7 +9,9 @@ import VerticleRow from './VerticleRow';
 function App() {
   return (
     <div className="App">
+      <div className='firstpart'>
       <Tophead />
+      </div>
       <div className="secondpart">
       <VerticleRow />
       <Explore />
