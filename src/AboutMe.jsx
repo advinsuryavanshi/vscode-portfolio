@@ -1,7 +1,7 @@
 import React from "react";
 import "./Aboutme.css";
 import Button from "@mui/material/Button";
-import mypdf from './AdvinResume.pdf'
+import mypdf from './AdvinRes.pdf'
 
 
 const AboutMe = () => {
